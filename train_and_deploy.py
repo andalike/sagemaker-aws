@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 def main():
     session = sagemaker.Session()
-    bucket_name = "sagemaker-logs-poc-logs-96f0c5b7"
+    bucket_name = "sagemaker-logs-poc"
     data_key = "data/error_logs.csv"
     
     # Download data to local /tmp, parse
