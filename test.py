@@ -4,17 +4,15 @@ import json
 
 def test_endpoint():
     # Create a session using your profile
-    session = boto3.Session(profile_name='iamaws2004')
+    session = boto3.Session(profile_name='edii-ai-bot-1')
 
     # Create the SageMaker runtime client using the session
     runtime_client = session.client("sagemaker-runtime")
-    endpoint_name = "logs-error-endpoint"
+    endpoint_name = "logs-error-endpoint-20250503200924"
 
     # Test cases
     test_errors = [
-        "Error 500: Internal Server Error",
-        "Error 404: Resource abc Not Found",
-        "Memory not avaialble"
+      "Order : 12312 Error given by UPI "
     ]
 
     try:
