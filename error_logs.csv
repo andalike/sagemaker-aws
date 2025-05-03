@@ -23,7 +23,7 @@ error_message,recommended_action
 "Error: Database connection timeout","Verify database connectivity"
 "Error: Configuration file missing","Restore configuration from backup"
 "Error: Authentication failed for user=charlie","Verify user credentials"
-"Error: Session expired for user=charlie","User must re-authenticate"
+"Error: Session expired for user=charlie1","User must re-authenticate"
 "Error: Invalid order data for orderID=1002","Validate order parameters"
 "Payment processed for orderID=1002","No action needed"
 "Error: Session cleanup failed for user=charlie","Manual session termination required"
