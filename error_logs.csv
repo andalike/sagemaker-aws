@@ -1,4 +1,4 @@
-﻿Error_Message,Recommended_Action
+﻿error_message,recommended_action
 404 Not Found in Water module ,Verify the URL and routing configuration.
 Token expired in Girl module ,Refresh the authentication token.
 Malformed JSON request in Civil module ,Validate the JSON structure before sending.
