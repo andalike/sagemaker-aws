@@ -1,4 +1,4 @@
-﻿error_message,recommended_action
+?error_message,recommended_action
 Error:404 Not Found in Water module,Verify the URL and routing configuration
 Error:Token expired in Girl module,Refresh the authentication token
 Error:Malformed JSON request in Civil module,Validate the JSON structure before sending
@@ -880,7 +880,6 @@ Error:500 Internal Server Error in Cost module,Check server logs for unhandled e
 Error:DNS resolution failed in Set module,Check domain settings and DNS server configuration
 Error:Module not found in Less module,Install the required module or fix import paths
 Error:Packet loss detected in Rise module,Investigate network hardware and congestion
-Error:Deadlock detected in Picture module,Refactor transactions to avoid circular locks
 Error:Deployment failed in Step module,Verify deployment configuration and error logs
 Error:Kernel panic in Number module,Check logs and update system kernel
 Error:Duplicate key in Win module,Ensure unique constraints are handled correctly
@@ -890,6 +889,7 @@ Error:ARP conflict in Herself module,Resolve IP conflicts in the network
 Error:Unauthorized access attempt in Environmental module,Audit logs and enforce access controls
 Error:Token expired in Single module,Refresh the authentication token
 Error:Token expired in Big module,Refresh the authentication token
+Error:Deadlock detected in Picture module,Refactor transactions to avoid circular locks
 Error:XSS detected in Sound module,Sanitize user input to prevent injection
 Error:504 Gateway Timeout in Bar module,Optimize backend performance or increase timeout settings
 Error:Transaction aborted in Produce module,Review transaction logic for consistency
