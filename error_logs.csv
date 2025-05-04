@@ -1,7 +1,7 @@
 ﻿error_message,recommended_action
-404 Not Found in Water module ,Verify the URL and routing configuration.
-Token expired in Girl module ,Refresh the authentication token.
-Malformed JSON request in Civil module ,Validate the JSON structure before sending.
+"404 Not Found in Water module","Verify the URL and routing configuration".
+"Token expired in Girl module","Refresh the authentication token".
+"Malformed JSON request in Civil module","Validate the JSON structure before sending".
 504 Gateway Timeout in Sure module ,Optimize backend performance or increase timeout settings.
 504 Gateway Timeout in Ahead module ,Optimize backend performance or increase timeout settings.
 Instance limit exceeded in Daughter module ,Request a quota increase or terminate unused instances.
